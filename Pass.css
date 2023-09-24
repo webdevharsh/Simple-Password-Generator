@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+margin:0; 
+padding:0;
+box-sizing:border-box;
+} 
+
+body{
+background:#000000;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family: 'poppins', sans-serif;
+}
+
+.container{
+padding:2px;        
+width:350px;
+}
+
+.container .password-box{
+height:45px;   
+width:330px;
+border:1px solid #00dfc4;
+border-radius:3px;
+display:flex;
+align-items:center;
+padding-left:15px;
+color:white;
+}
+
+.container .password-box .fa-copy{
+position:absolute;   
+color:#00dfc4;
+font-size:18px;
+margin-left:280px;
+cursor:pointer;
+}
+
+.container .generate-btn{
+all:unset; 
+height:35px;
+width:200px;
+background:#00dfc4;
+color:black;
+padding-left:25px;
+margin-top:8px;
+border-radius:3px;
+cursor:pointer;
+}
+
+.container .generate-btn i{
+position:relative;
+left:-5px;
+}
+
+::selection{
+background:#00dfc4;
+color:black;        
+}
